@@ -1,0 +1,34 @@
+# =========================================================================
+# Dependencias del modulo de IA de GARRA-OS
+# Instalar con:  python -m pip install -r requirements.txt
+#
+# NOTA: se dejan SIN version fija a proposito (excepto playsound) para que
+# pip elija la version compatible con tu Python. MediaPipe necesita
+# Python 3.10 - 3.12 (NO funciona en 3.13).
+# =========================================================================
+
+# Vision por computadora + reconocedor facial LBPH.
+# IMPORTANTE: es 'contrib', NO el opencv normal. El modulo cv2.face
+# (LBPH) SOLO viene en opencv-contrib-python.
+opencv-contrib-python
+
+# Deteccion de manos / gestos (modelo pre-entrenado de Google).
+mediapipe
+
+# Generacion de voz (Google Text-to-Speech). Necesita internet.
+gTTS
+
+# Reproduccion del MP3 generado por gTTS.
+# La 1.2.2 es la mas estable; si falla al instalar, el sistema funciona
+# igual sin audio (gTTS igual genera el MP3).
+playsound==1.2.2
+
+# Cliente MQTT para hablar con la ESP32 a traves del broker.
+paho-mqtt
+
+# SDK de Firebase para escribir el reconocimiento en la Realtime Database
+# (la misma base de la Unidad 3 de GARRA-OS).
+firebase-admin
+
+# Operaciones numericas (lo usa el entrenamiento LBPH).
+numpy
