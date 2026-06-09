@@ -1,1 +1,0 @@
-Coloca aquí las imágenes de rostros: dataset/<Nombre>/*.jpg (una subcarpeta por integrante).
