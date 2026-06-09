@@ -1,7 +1,9 @@
 # GARRA-OS · Integración de Inteligencia Artificial en el Ecosistema IoT (ESP32-CAM ↔ Python IA)
 
 **Materia:** Sistemas Programables — Integración de IA (ESP32-CAM ↔ Python IA)
+
 **Docente:** Ma. Verónica Tapia Ibarra
+
 **Institución:** Instituto Tecnológico de León · Ingeniería en Sistemas Computacionales
 
 ## Integrantes
