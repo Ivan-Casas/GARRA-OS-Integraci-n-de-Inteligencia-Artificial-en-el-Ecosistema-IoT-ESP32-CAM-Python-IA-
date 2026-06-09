@@ -1,1 +1,0 @@
-Coloca aquí imágenes estáticas para probar el gesto: palma_*.jpg y nopalma_*.jpg
