@@ -1,1 +1,0 @@
-Aquí se generan modelo_lbph.yml y etiquetas.json al correr entrenar_rostros.py.
